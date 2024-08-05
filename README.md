@@ -206,7 +206,7 @@ weighted avg       0.87      0.87      0.87       363
 
 ### Confusion Matrix
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix]("C:\Users\HP\Downloads\Training_Validation_Accuracy.png")
 
 ### Training and Validation Accuracy
 
