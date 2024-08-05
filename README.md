@@ -208,7 +208,7 @@ weighted avg       0.87      0.87      0.87       363
 
 ### Training and Validation Accuracy
 
-![Accuracy Plot](accuracy_plot.png)
+https://github.com/arkapriyathecoderinprogress/BrainTumorDetectionVGG16/blob/main/Training_Validation_Accuracy.png
 
 ### Training and Validation Loss
 
