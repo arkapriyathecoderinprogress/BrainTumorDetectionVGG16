@@ -206,6 +206,8 @@ weighted avg       0.88      0.87      0.87       84
 
 ### Confusion Matrix
 
+![Confusion_Matrix](https://github.com/arkapriyathecoderinprogress/BrainTumorDetectionVGG16/blob/main/Confusion_Matrix.png)
+
 ### Training and Validation Accuracy
 
 ![Accuracy_Plot](https://github.com/arkapriyathecoderinprogress/BrainTumorDetectionVGG16/blob/main/Training_Validation_Accuracy.png)
