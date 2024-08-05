@@ -147,23 +147,23 @@ To adapt the model for our classification task, additional layers are added on t
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #
 =================================================================
-input_1 (InputLayer)         [(None, 224, 224, 3)]     0
+input_2 (InputLayer)         [(None, 224, 224, 3)]     0
 _________________________________________________________________
 block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792
 _________________________________________________________________
 ...
 _________________________________________________________________
-dense (Dense)                (None, 1024)              102761472
+dense (Dense)                (None, 1024)              525312
 _________________________________________________________________
 dropout (Dropout)            (None, 1024)              0
 _________________________________________________________________
 ...
 _________________________________________________________________
-dense_2 (Dense)              (None, 2)                 1026
+dense_3 (Dense)              (None, 2)                 1026
 =================================================================
-Total params: 130,566,210
-Trainable params: 115,563,522
-Non-trainable params: 15,002,688
+Total params: 16,815,426
+Trainable params: 9,180,162
+Non-trainable params: 7,635,264
 _________________________________________________________________
 ```
 
@@ -196,19 +196,19 @@ The model achieves an accuracy of 86.9% on the test dataset. Detailed performanc
 ```plaintext
               precision    recall  f1-score   support
 
-    No Tumor       0.90      0.84      0.87       195
-       Tumor       0.84      0.90      0.87       168
+    No Tumor       0.79      0.91      0.85       33
+       Tumor       0.93      0.84      0.89       51
 
-    accuracy                           0.87       363
-   macro avg       0.87      0.87      0.87       363
-weighted avg       0.87      0.87      0.87       363
+    accuracy                           0.87       84
+   macro avg       0.86      0.88      0.87       84
+weighted avg       0.88      0.87      0.87       84
 ```
 
 ### Confusion Matrix
 
 ### Training and Validation Accuracy
 
-https://github.com/arkapriyathecoderinprogress/BrainTumorDetectionVGG16/blob/main/Training_Validation_Accuracy.png
+![Accuracy_Plot](https://github.com/arkapriyathecoderinprogress/BrainTumorDetectionVGG16/blob/main/Training_Validation_Accuracy.png)
 
 ### Training and Validation Loss
 
