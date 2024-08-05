@@ -214,7 +214,7 @@ weighted avg       0.88      0.87      0.87       84
 
 ### Training and Validation Loss
 
-![Loss Plot](loss_plot.png)
+![Loss Plot](https://github.com/arkapriyathecoderinprogress/BrainTumorDetectionVGG16/blob/main/Training_Validation_Loss.png)
 
 ## Usage
 
@@ -256,3 +256,8 @@ Contributions to this project are welcome. If you have ideas for improvements, b
 ## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software as long as the original license terms are respected.
+
+
+## Contact
+
+For any questions or inquiries, please contact [chandaarkapriya@gmail.com].
